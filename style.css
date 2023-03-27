@@ -38,7 +38,7 @@ font-size: 100%;
 
 .conteudo{
     border-top: 0.8px solid black;
-    margin-bottom: 48px;
+    margin-bottom: 1px;
 }
 
 .conteudo-principal{
@@ -113,6 +113,7 @@ font-size: 100%;
 }
 
 .rodape{
+    background-color: black;
     padding: 0px;
     border-top:0.8px solid black
 }
@@ -122,4 +123,8 @@ font-size: 100%;
     width: 400px;
     display: block;
     margin: 0 auto;
+}
+
+.rodape>p{
+    color: white;
 }
